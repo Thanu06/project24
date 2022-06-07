@@ -15,6 +15,6 @@ class Paper{
     display(){
         var pos =this.body.position;
         fill(255,50,185);
-        rect(pos.x,pos.y);
+        ellipse(pos.x,pos.y);
     }
 }
